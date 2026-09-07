@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: Protein List Builder for Gene Ontology (GO) Analysis
+message: >-
+  If you use this software, please cite both the software itself and the
+  associated publication.
+type: software
+authors:
+  - family-names: Kosugi
+    given-names: Youhei
+    affiliation: Takeda Pharmaceutical Company Limited
+    email: Youhei.Kosugi@takeda.com
+abstract: >-
+  A Streamlit application that annotates a protein half-life dataset with Gene
+  Ontology terms from a UniProt export and visualises the half-life (T1/2)
+  distribution of the proteins carrying each GO term as logarithmic box plots.
+keywords:
+  - gene ontology
+  - proteomics
+  - protein half-life
+  - turnover
+  - UniProt
+  - streamlit
+license: BSD-3-Clause
+version: 1.0.0
+date-released: "2026-09-07"
+# TODO: add the repository URL once the project is published on GitHub.
+# repository-code: "https://github.com/<owner>/<repository>"
+
+# TODO: complete the publication details once the article is available.
+# preferred-citation:
+#   type: article
+#   title: "<article title>"
+#   authors:
+#     - family-names: Kosugi
+#       given-names: Youhei
+#   journal: "<journal name>"
+#   year: 2026
+#   doi: "<doi>"
